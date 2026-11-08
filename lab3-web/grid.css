@@ -35,7 +35,7 @@ p {
 }
 
 a {
-    display: inline-block;
+    display: block;
     text-decoration: none;
     margin-top: 10px;
 }
