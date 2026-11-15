@@ -18,7 +18,7 @@ p {
 }
 
 a {
-    display: block;
+    display: inline-block;
     margin-top: 10px;
     text-decoration: none;
 }
@@ -44,15 +44,15 @@ a {
     border-bottom: 2px solid black;
 }
 
-@media (max-width: 768px) {
-    .col-sm-12 {
-        width: 100%;
+@media (min-width: 993px) {
+    .col-lg-4 {
+        width: 32%;
     }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
     .col-md-6 {
-        width: 48%;
+        width: 49%;
     }
     
     .col-md-12 {
@@ -60,11 +60,8 @@ a {
     }
 }
 
-
-@media (min-width: 993px) {
-    .col-lg-4 {
-        width: 30%;
+@media (max-width: 768px) {
+    .col-sm-12 {
+        width: 100%;
     }
 }
-
-
