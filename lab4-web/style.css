@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+p {
+    font-size: 120%;
+}
+
+.biography:visited {
+    color: green;
+}
+
+.biography:link {
+    color: red;
+}
+
+.nowadays:visited {
+    color: red;
+}
+
+.nowadays:link {
+    color: green;
+}
+
+.friends:visited {
+    color: blue;
+}
+
+.friends:link {
+    color: yellow;
+}
+
+.gallery:visited {
+    color: orange;
+}
+
+.gallery:link {
+    color: magenta;
+}
+
+
+@media (min-width: 993px) {
+    .col-lg-3 {
+        width: 25%;
+    } 
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .col-md-6 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-sm-12 {
+        width: 100%;
+    } 
+}
+
